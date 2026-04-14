@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 let participants = [];
 
 // 🔐 CONFIG TELEGRAM
-const BOT_TOKEN = "8315488595:AAHCH2sBDKKw9ve2c2-baKtZjlYxFrgAhYM";
+const TOKEN = process.env.BOT_TOKEN;
 const CHAT_ID = 8348938703;
 
 // 📩 ROUTE PARTICIPATION
